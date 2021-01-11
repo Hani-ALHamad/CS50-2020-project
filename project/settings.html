@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="settings.css">
+    <title>Settings</title>
+</head>
+<body>
+    <header>
+        <div class="header_box">
+            <div class="header_style">
+                
+            </div>
+            <nav>
+                <ul>
+                    <a href="">
+                        <li class="link"><img src="./logo.png" alt=""></li>
+                    </a>
+                    <a href="">
+                        <li id="logo">ToDo</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <br>
+    <h1>Settings</h1>
+    <input type="checkbox" name="first" id="expired_on" value="expired">
+    <label for="expired">Show time left\"expired" status on the tasks</label><br>
+    <input type="checkbox" name="second" id="notification_on" value="reminder">
+    <label for="reminder">Show a desktop notifications before or when any taks expires</label>
+    <select name="reminder_time" id="reminder_time" onchange="select()">
+        <option id="select_18000000" value="18000000">5 hours</option>
+        <option id="select_7200000" value="7200000">2 hours</option>
+        <option id="select_3600000" value="3600000">1 hour</option>
+        <option id="select_1800000" value="1800000">30 minutes</option>
+        <option id="select_900000" value="900000">15 minutes</option>
+        <option id="select_300000" value="300000">5 minutes</option>
+        <option id="select_0" value="0">when expires</option>
+    </select>
+    <br>
+    <br>
+    <hr width="600px" align="left">
+    <br>
+    <button id="delete_all" onclick="window.location.reload()">Delete all tasks*</button>
+    <p>*Note: using that will completely remove all tasks from the local storage and you wont be able to retrive them again</p>
+
+    <script src="./settings.js"></script>
+</body>
+</html>

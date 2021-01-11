@@ -1,0 +1,21 @@
+{
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+    "permissions": ["notifications"],
+    "name": "Advanced ToDo",
+    "version": "1.0",
+    "description": "ToDo extension",
+    "manifest_version": 2,
+    "browser_action":{
+        "default_popup": "list.html",
+        "default_icon": {
+            
+            "32": "logo.png"
+        }
+
+    }
+
+    
+}

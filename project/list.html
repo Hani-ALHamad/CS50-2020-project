@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="list.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <ol>
+        <button id="add">Add new task</button>
+        <a href="./settings.html" target="_blank">
+        <button id="settings">Settings</button>
+        </a>
+        <li id="textbox">
+        <form id="new">
+        <textarea placeholder="Your text..." autocomplete="off" required autofocus maxlength="300" name="new_task" id="new_task" cols="42" rows="1"></textarea>
+        <span id="new_task_buttons">
+            <button title="Create" type="submit" id="check"><img src="check.png" alt="Delete/Done"></button>
+            <button title="Cancel" type="button" id="x"><img src="x.png" alt="Edit"></button>
+        </span>
+        </span>
+        </li>
+
+        <span id="li_container">    
+        <!-- this is how every task looks like
+            <li title ="" class="">
+            <span id="text">
+            Task text is here
+            </span>
+            <div id="buttons">
+                <span id= "buttons_hide">
+                <span id="expired_small">⚠ Expired</span>
+                <button id="delete"><img src="trash.png" alt="Delete/Done"></button>
+                <span id="delete_span">
+                <button id="edit"><img src="edit.png" alt="Edit"></button>
+                </span>
+                </span>
+                <span id="time_remaining">53 Minutes Remaining</span>
+            </div>
+        </li> -->
+        </span>
+        
+    <script src="list.js"></script>
+    </ol> 
+
+</body>
+</html>

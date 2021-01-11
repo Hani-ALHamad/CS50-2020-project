@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./details.css">
+    <title>Details</title>
+</head>
+<body>
+        <header>
+            <div class="header_box">
+                <div class="header_style">
+        
+                </div>
+                <nav>
+                    <ul>
+                        <a href="./list.html"><button id="back"> << </button></a>
+                            <li class="link"><img src="./logo.png" alt=""></li>
+                            <li id="logo">ToDo</li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+    <br>
+    <h1>Details</h1>
+    <br>
+    <div id="details">
+    <textarea placeholder="Your text..." autocomplete="off" required autofocus maxlength="300" style="resize: none;" name="task_details" id="task_details" cols="29" rows="7"></textarea>
+    <div id="right">
+
+    <input type="checkbox" name="enable_time" id="enable_time" value="enable_time">
+    <label for="enable_time">Enable time limit</label><br>
+    <p class="expiring_time">Choose deadline for the task (optional)</p>
+    
+    <input type="datetime-local" id="datetime-local" name="expiring_time" value="" min="" max="" required>
+    <hr class="expiring_time" width="320px">
+    <br>
+    <button type="submit" id="save">Save</button>
+    </div>
+    </div>
+    <script src="./details.js"></script>
+</body>
+</html>
