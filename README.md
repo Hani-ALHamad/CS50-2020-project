@@ -6,4 +6,4 @@
 
 **This extension stores all the data in browser's local storage, which is not the best idea to use, my future projects will be better for sure.**
 
-![alt text] https://raw.githubusercontent.com/Hani-ALHamad/CS50-2020-project/main/img.png
+![alt text] (https://raw.githubusercontent.com/Hani-ALHamad/CS50-2020-project/main/img.png)
